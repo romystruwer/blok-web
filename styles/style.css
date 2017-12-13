@@ -1,0 +1,213 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: "Nexa Light","Trebuchet MS", sans-serif;
+}
+
+/*-----navigatiebar-----*/
+ul {
+    background-color: #FFFFFF;
+    color: #01D76C;
+    font-family: "Nexa Bold", "Trebuchet MS Bold", sans-serif;
+    font-size: 18px;
+    list-style: none;
+    text-align: left;
+    padding: 0.5em 0.5em;
+    margin: 0.3em;
+
+}
+
+ul li {
+    display: inline-block;
+    flex-direction: row;
+    padding-right: 0 25px 0 25px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #00D962;
+    padding: 0.5em 0.5em;
+    margin: 0.3em;
+
+}
+
+li a:hover {
+    color: #2800a0;
+}
+
+
+/*-----aanbevolen-----*/
+
+section {
+    display: block;
+    background-image: url(/images/boeklezen.jpg);
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+    font-family: "Nexa Bold", "Trebuchet MS Bold", sans-serif;
+    color: #ffffff;
+
+}
+
+section > h1 {
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 2em;
+
+}
+
+section > h2 {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+section > p {
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: "Nexa Light", "Trebuchet MS", sans-serif;
+}
+
+/*-----verhalenoverzichttegels-----*/
+
+article {
+    background-color: #ffffff;
+    border: solid 0.5px;
+    border-color: gray;
+    border-radius: 12px;
+    margin: 5%;
+}
+
+article h1 {
+    font-family: "Nexa Bold", "Trebuchet MS Bold", sans-serif;
+    color: #606060;
+    font-size: 2em;
+    margin-left: 4%;
+    padding-top: 4%;
+
+}
+
+article h2 {
+    font-family: "Nexa Bold", "Trebuchet MS Bold", sans-serif;
+    color: #606060;
+    font-size: 1.2em;
+    margin-left: 4%;
+}
+
+article p {
+    font-family: "Nexa Light", "Trebuchet MS", sans-serif;
+    color: #606060;
+    font-size: 1em;
+    margin-left: 4%;
+    margin-right: 10%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*-----buttons-----*/
+
+  .button1 {
+    box-shadow: 0px 2px 0px 0px #259b65;
+    box-shadow: 0px 2px 0px 0px #259b65;
+    box-shadow: 0px 2px 0px 0px #259b65;
+    background-color: #01D76C;
+    border-radius: 30px;
+    border-radius: 30px;
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Nexa Bold", "Trebuchet MS Bold", sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    margin-top: 1em;
+    margin-left: 7%;
+    margin-bottom: 5%;
+
+}
+
+.button1:hover {
+    background-color: #54E19A;
+    -moz-box-shadow: 0px 2px 0px 0px #299466;
+    -webkit-box-shadow: 0px 2px 0px 0px #299466;
+    box-shadow: 0px 2px 0px 0px #299466;
+
+}
+
+.button2 {
+    box-shadow: 0px 2px 0px 0px #c92f56;
+    box-shadow: 0px 2px 0px 0px #c92f56;
+    box-shadow: 0px 2px 0px 0px #c92f56;
+    background-color: #FF3368;
+    border-radius: 30px;
+    border-radius: 30px;
+    border-radius: 35px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Nexa Bold", "Trebuchet MS Bold", sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    margin-top: 1em;
+    margin-left: 4%;
+    margin-bottom: 5%;
+
+}
+
+.button2:hover {
+    background-color: #fd678f;
+    box-shadow: 0px 2px 0px 0px #cb3259;
+    box-shadow: 0px 2px 0px 0px #cb3259;
+    box-shadow: 0px 2px 0px 0px #cb3259;
+
+}
+
+
+
+/*-----footer-----*/
+
+footer ul {
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+footer ul li a {
+    color: #606060;
+    font-family: "Nexa Bold";
+    font-size: 0.9em;
+
+}
+
+footer {
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 0.5em;
+    text-align: center;
+}
+
+footer > p {
+    font-family: "Nexa Light", "Trebuchet MS", sans-serif;
+    font-size: 0.9em;
+    color: #606060;
+}
+
+footer img {
+    height: 3.75em;
+    width: 3.75em;
+}
+
+@media (min-width=40em) {
+    footer img {
+        height: 4em;
+        width: 4em;
+    }
+}
